@@ -1,0 +1,54 @@
+.tour-img {
+  width: 100%;
+  height: 350px;
+  border-radius: 8px;
+}
+.tour-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.tour-content {
+  margin-top: 10px;
+}
+.tour-content h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.tour-content p {
+  font-size: 16px;
+  color: #555;
+}
+
+
+
+
+#form-book-ticket {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  visibility: hidden;
+}
+
+#form-book-ticket form {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 40vw;
+  background: #fff;
+  padding: 16px 24px;
+}
+@keyframes showDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

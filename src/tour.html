@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../asset/img/favicon-32x32.png" type="image/x-icon">
+    <title>Du Lịch Chín Rồng</title>
+    <link rel="stylesheet" href="../asset/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../asset/simplePagination/simplePagination.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/search.css">
+    <link rel="stylesheet" href="./css/tour.css">
+</head>
+
+<body>
+    <header id="header" class="px-5 py-3 bg-white shadow">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand border-end pe-3" href="#">
+                    <div>
+                        <img src="../asset/img/logo.png.webp" alt="Logo" width="200">
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ps-5 " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-3">
+                            <a class="nav-link fs-5 text-hover" aria-current="page" href="index.html">Trang chủ</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link fs-5 text-hover" href="about.html">Thông tin</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link fs-5 text-hover active" href="tour.html">Đặt vé</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link fs-5 text-hover" href="lienhe.html">Liên hệ</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link fs-5 text-hover" href="book.html">Giỏ hàng</a>
+                        </li>
+                    </ul>
+                    <div class=" d-flex lg:justify-content-end align-items-center">
+                        <div class="d-flex justify-content-end nav-user-right">
+                            <a href="login.html" class="nav-link fs-5 pe-3 text-hover">Đăng nhập</a>
+                            <a href="register.html" class="nav-link fs-5 text-hover">Đăng ký</a>
+                        </div>
+                        <button class="btn btn-outline-success ms-3 search" type="submit">Search</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Start Banner -->
+        <div id="banner">
+            <div id="carouselExampleInterval" class="carousel slide h-100" data-bs-ride="carousel">
+                <div class="carousel-inner h-100">
+                    <div class="carousel-item active h-100 position-relative" data-bs-interval="10000">
+                        <img src="../asset/img/image1.jpg" class="d-block w-100 h-100 object-fit-cover" alt="Img">
+                        <div class="position-absolute top-50 start-50 translate-middle text-center">
+                            <h1 class="ff-title text-white font-size-big fw-lighter">Can Tho</h1>
+                            <h5 class="text-white fw-semibold">Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                            </h5>
+                            <button class="btn-main lg mt-3">Khám Phá</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item h-100 position-relative" data-bs-interval="2000">
+                        <img src="../asset/img/image2.png" class="d-block w-100 h-100 object-fit-cover" alt="Img">
+                        <div class="position-absolute top-50 start-50 translate-middle text-center">
+                            <h1 class="ff-title text-white font-size-big fw-lighter">An Giang</h1>
+                            <h5 class="text-white fw-semibold">Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                            </h5>
+                            <button class="btn-main lg mt-3">Khám Phá</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item h-100 position-relative" data-bs-interval="3000">
+                        <img src="../asset/img/image4.png" class="d-block w-100 h-100 object-fit-cover" alt="Img">
+                        <div class="position-absolute top-50 start-50 translate-middle text-center">
+                            <h1 class="ff-title text-white font-size-big fw-lighter">Soc Trang</h1>
+                            <h5 class="text-white fw-semibold">Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                            </h5>
+                            <button class="btn-main lg mt-3">Khám Phá</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item h-100 position-relative">
+                        <img src="../asset/img/image3.png" class="d-block w-100 h-100 object-fit-cover" alt="Img">
+                        <div class="position-absolute top-50 start-50 translate-middle text-center">
+                            <h1 class="ff-title text-white font-size-big fw-lighter">Tien Giang</h1>
+                            <h5 class="text-white fw-semibold">Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                            </h5>
+                            <button class="btn-main lg mt-3">Khám Phá</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- end Banner -->
+
+        <!-- Start Tour -->
+        <div class="container-lg container-fluid px-4 px-lg-0">
+            <h1 class="text-center text-dark my-5">Thông Tin Các Vé Du Lịch</h1>
+            <div class="row tour-list"></div>
+            <div id="pagination-container"></div>
+
+        </div>
+    </main>
+
+    <!-- Form đặt vé -->
+    <div id="form-book-ticket">
+        <form action="#">
+            <div class="form-group mb-3">
+                <label class="d-block" for="fullname">Họ Tên:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Họ & Tên" class="w-100 py-2 px-3 border-1"
+                    required>
+            </div>
+            <div class="form-group mb-3">
+                <label class="d-block" for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Email" class="w-100 py-2 px-3 border-1">
+            </div>
+            <div class="form-group mb-3">
+                <label class="d-block" for="phone">SDT:</label>
+                <input type="text" id="phone" name="phone" placeholder="Phone" class="w-100 py-2 px-3 border-1"
+                    required>
+            </div>
+            <div class="form-group mb-3">
+                <label class="d-block" for="amount">Số lượng:</label>
+                <input type="number" id="amount" name="amount" min="1" value="1" class="w-100 py-2 px-3 border-1"
+                    required>
+            </div>
+            <div>
+                <button type="submit" class="btn btn-success">Gửi</button>
+                <a class="btn btn-danger" onclick="closeFormBook()">Hủy</a>
+            </div>
+        </form>
+    </div>
+    <!-- Modal Search -->
+    <div id="modal-search" class="modal-search">
+        <form action="#" class="modal-search__form" onsubmit="submitSearch(event,renderTour)">
+            <input type="text" placeholder="Search" class="modal-search__input" name="search">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+    <footer>
+        <div class="container-md">
+            <div class="row">
+
+
+                <div class="col-md-3 text-center text-md-start">
+                    <div>
+                        <img src="../asset/img/logo.png.webp" alt="Logo" width="200">
+                    </div>
+                    <p class="pt-4">R29 đường số 8, khu đô thị mới Hưng Phú, P. Hưng Thạnh, Q Cái Răng, Tp Cần Thơ.</p>
+                    <p><i class="fa-solid fa-envelope"></i> Email: info@datchinrongtravel.com</p>
+
+                </div>
+
+                <div class="col-md-2 text-center text-md-start mt-3 mt-md-0">
+                    <h3 class="mt-3">Danh Mục</h3>
+                    <ul class=" ms-0 ps-0 mt-4">
+                        <li><a class="text-white text-hover" href="about.html">Thông Tin</a></li>
+                        <li class="mt-2"><a class="text-white text-hover" href="lienhe.html">Liên Hệ</a></li>
+                        <li class="mt-2"><a class="text-white text-hover" href="tour.html">Đặt Vé</a></li>
+                        <li class="mt-2"><a class="text-white text-hover" href="book.html">Giỏ Hàng</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 mt-3 mt-md-0">
+                    <h3 class="mt-3 text-center">Địa Điểm Nổi Tiếng</h3>
+                    <div class="row mt-4 text-center">
+                        <div class="col-6">
+                            <p class="text-white">Cồn Phụng, Bến Tre</p>
+                            <p class="text-white">Trại rắn Đồng Tâm</p>
+                            <p class="text-white"> Sa Đéc, Đồng Tháp</p>
+                        </div>
+                        <div class="col-6">
+                            <p class="text-white">Chợ nổi Cái Răng</p>
+                            <p class="text-white">Miệt vườn Phong Điền</p>
+                            <p class="text-white">Rừng tràm Trà Sư</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-3 mt-md-0">
+                    <h3 class="mt-3 text-center">Instagram</h3>
+                    <div class="mt-4">
+                        <div class="row">
+                            <div class="col-4 ins-picture">
+                                <img src="../asset/img/ft1.jpg" alt="Des" class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="col-4 ins-picture">
+                                <img src="../asset/img/ft2.jpg" alt="Des" class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="col-4 ins-picture">
+                                <img src="../asset/img/ft3.jpg" alt="Des" class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="col-4 ins-picture mt-3">
+                                <img src="../asset/img/ft4.jpg" alt="Des" class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="col-4 ins-picture mt-3">
+                                <img src="../asset/img/ft5.jpg" alt="Des" class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="col-4 ins-picture mt-3">
+                                <img src="../asset/img/ft6.jpg" alt="Des" class="w-100 h-100 object-fit-cover">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <p class="text-center pt-3">Copyright &copy;2023. This website is made by <span class="text-green">Team1</span>
+        </p>
+    </footer>
+    <script src="../asset/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../asset/jquery/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplePagination.js/1.6/jquery.simplePagination.js"> </script>
+    <script src="./js/main.js"></script>
+    <script src="./js/tour.js"></script>
+    <script src="./js/search.js"></script>
+
+</body>
+
+</html>

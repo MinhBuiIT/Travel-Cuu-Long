@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../asset/img/favicon-32x32.png" type="image/x-icon">
+    <title>Du Lịch Chín Rồng</title>
+    <link rel="stylesheet" href="../asset/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/about.css">
+</head>
+
+<body>
+    <header id="header" class="px-5 py-3 bg-white shadow">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand border-end pe-3" href="#">
+                    <div>
+                        <img src="../asset/img/logo.png.webp" alt="Logo" width="200">
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ps-5" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-3">
+                            <a class="nav-link fs-5 text-hover" aria-current="page" href="index.html">Trang chủ</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link fs-5  active" href="about.html">Thông tin</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link fs-5 text-hover" href="tour.html">Đặt vé</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link fs-5 text-hover" href="lienhe.html">Liên hệ</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link fs-5 text-hover" href="book.html">Giỏ hàng</a>
+                        </li>
+                    </ul>
+                    <div class=" d-flex lg:justify-content-end align-items-center">
+                        <div class="d-flex justify-content-end nav-user-right">
+                            <a href="login.html" class="nav-link fs-5 pe-3 text-hover">Đăng nhập</a>
+                            <a href="register.html" class="nav-link fs-5 text-hover">Đăng ký</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="banner" class="mb-5">
+            <div id="carouselExampleInterval" class="carousel slide h-100" data-bs-ride="carousel">
+                <div class="carousel-inner h-100">
+                    <div class="carousel-item active h-100 position-relative" data-bs-interval="10000">
+                        <img src="../asset/img/image1.jpg" class="d-block w-100 h-100 object-fit-cover" alt="Img">
+                        <div class="position-absolute top-50 start-50 translate-middle text-center">
+                            <h1 class="ff-title text-white font-size-big fw-lighter">Can Tho</h1>
+                            <h5 class="text-white fw-semibold">Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                            </h5>
+                            <button class="btn-main lg mt-3">Khám Phá</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item h-100 position-relative" data-bs-interval="2000">
+                        <img src="../asset/img/image2.png" class="d-block w-100 h-100 object-fit-cover" alt="Img">
+                        <div class="position-absolute top-50 start-50 translate-middle text-center">
+                            <h1 class="ff-title text-white font-size-big fw-lighter">An Giang</h1>
+                            <h5 class="text-white fw-semibold">Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                            </h5>
+                            <button class="btn-main lg mt-3">Khám Phá</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item h-100 position-relative" data-bs-interval="3000">
+                        <img src="../asset/img/image4.png" class="d-block w-100 h-100 object-fit-cover" alt="Img">
+                        <div class="position-absolute top-50 start-50 translate-middle text-center">
+                            <h1 class="ff-title text-white font-size-big fw-lighter">Soc Trang</h1>
+                            <h5 class="text-white fw-semibold">Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                            </h5>
+                            <button class="btn-main lg mt-3">Khám Phá</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item h-100 position-relative">
+                        <img src="../asset/img/image3.png" class="d-block w-100 h-100 object-fit-cover" alt="Img">
+                        <div class="position-absolute top-50 start-50 translate-middle text-center">
+                            <h1 class="ff-title text-white font-size-big fw-lighter">Tien Giang</h1>
+                            <h5 class="text-white fw-semibold">Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                            </h5>
+                            <button class="btn-main lg mt-3">Khám Phá</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div id="intro" class="container-md container-fluid px-3 px-md-0 py-5 mb-3">
+            <div class="row justify-content-between align-items-center h-100">
+                <div class="col-md-4  h-100">
+                    <h4 class="ff-title2 fw-normal" style="font-size: 50px;">Welcome to Chin Rong Travel</h4>
+                    <p class="text-dark-emphasis">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero iste
+                        repellendus perspiciatis
+                        beatae alias quasi, voluptates veritatis dicta a placeat, suscipit ipsa sunt rerum voluptatum ut
+                        earum minima iusto quo.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum, repellendus?</p>
+                    <div class="btn btn-outline-success mt-2">Xem Thêm</div>
+                </div>
+                <div class="col-md-7 h-100 mt-5 mt-md-0">
+                    <div class="row">
+                        <div class="col-6 intro-img-one">
+                            <img src="../asset/img/about1.jpg" alt="About" class="w-100  object-fit-cover rounded-2">
+                        </div>
+                        <div class="col-6 intro-img-two">
+                            <img src="../asset/img/about2.jpg" alt="About" class="w-100  object-fit-cover rounded-2">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row gap-3">
+                <div class="col-md-5">
+                    <h4>Bình luận</h4>
+                    <div id="comment" class="container-fluid">
+                        <div class="container text-center">
+                            <div id="carouselExampleCaptions" class="carousel slide pb-5" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                        class="bg-black active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                        aria-label="Slide 2" class="bg-black"></button>
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                        aria-label="Slide 3" class="bg-black"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="2000">
+                                        <div class="text-center mx-auto comment-img">
+                                            <img src="../asset/img/comment1.png" alt="Comment">
+                                        </div>
+                                        <p class="mt-5">"Working in conjunction with humanitarian aid agencies, we have
+                                            supported programmes to
+                                            help
+                                            alleviate human
+                                            suffering.</p>
+                                        <p class="text-dark-emphasis">-Trần Quang Minh-</p>
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="3000">
+                                        <div class="text-center mx-auto comment-img">
+                                            <img src="../asset/img/comment1.png" alt="Comment">
+                                        </div>
+                                        <p class="mt-5">"Working in conjunction with humanitarian aid agencies, we have
+                                            supported programmes to
+                                            help
+                                            alleviate human
+                                            suffering.</p>
+                                        <p class="text-dark-emphasis">-Trần Quang Minh-</p>
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="4000">
+                                        <div class="text-center mx-auto comment-img">
+                                            <img src="../asset/img/comment1.png" alt="Comment">
+                                        </div>
+                                        <p class="mt-5">"Working in conjunction with humanitarian aid agencies, we have
+                                            supported programmes to
+                                            help
+                                            alleviate human
+                                            suffering.</p>
+                                        <p class="text-dark-emphasis">-Trần Quang Minh-</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <h4>Câu hỏi thường xuyên</h4>
+                    <div class="accordion mt-3" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Accordion Item #1
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Accordion Item #2
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Accordion Item #3
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Accordion Item #4
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </main>
+    <footer>
+        <div class="container-md">
+            <div class="row">
+
+
+                <div class="col-md-3 text-center text-md-start">
+                    <div>
+                        <img src="../asset/img/logo.png.webp" alt="Logo" width="200">
+                    </div>
+                    <p class="pt-4">R29 đường số 8, khu đô thị mới Hưng Phú, P. Hưng Thạnh, Q Cái Răng, Tp Cần Thơ.</p>
+                    <p><i class="fa-solid fa-envelope"></i> Email: info@datchinrongtravel.com</p>
+
+                </div>
+
+                <div class="col-md-2 text-center text-md-start mt-3 mt-md-0">
+                    <h3 class="mt-3">Danh Mục</h3>
+                    <ul class=" ms-0 ps-0 mt-4">
+                        <li><a class="text-white text-hover" href="about.html">Thông Tin</a></li>
+                        <li class="mt-2"><a class="text-white text-hover" href="lienhe.html">Liên Hệ</a></li>
+                        <li class="mt-2"><a class="text-white text-hover" href="tour.html">Đặt Vé</a></li>
+                        <li class="mt-2"><a class="text-white text-hover" href="book.html">Giỏ Hàng</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 mt-3 mt-md-0">
+                    <h3 class="mt-3 text-center">Địa Điểm Nổi Tiếng</h3>
+                    <div class="row mt-4 text-center">
+                        <div class="col-6">
+                            <p class="text-white">Cồn Phụng, Bến Tre</p>
+                            <p class="text-white">Trại rắn Đồng Tâm</p>
+                            <p class="text-white"> Sa Đéc, Đồng Tháp</p>
+                        </div>
+                        <div class="col-6">
+                            <p class="text-white">Chợ nổi Cái Răng</p>
+                            <p class="text-white">Miệt vườn Phong Điền</p>
+                            <p class="text-white">Rừng tràm Trà Sư</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-3 mt-md-0">
+                    <h3 class="mt-3 text-center">Instagram</h3>
+                    <div class="mt-4">
+                        <div class="row">
+                            <div class="col-4 ins-picture">
+                                <img src="../asset/img/ft1.jpg" alt="Des" class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="col-4 ins-picture">
+                                <img src="../asset/img/ft2.jpg" alt="Des" class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="col-4 ins-picture">
+                                <img src="../asset/img/ft3.jpg" alt="Des" class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="col-4 ins-picture mt-3">
+                                <img src="../asset/img/ft4.jpg" alt="Des" class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="col-4 ins-picture mt-3">
+                                <img src="../asset/img/ft5.jpg" alt="Des" class="w-100 h-100 object-fit-cover">
+                            </div>
+                            <div class="col-4 ins-picture mt-3">
+                                <img src="../asset/img/ft6.jpg" alt="Des" class="w-100 h-100 object-fit-cover">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <p class="text-center pt-3">Copyright &copy;2023. This website is made by <span class="text-green">Team1</span>
+        </p>
+    </footer>
+    <script src="../asset/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

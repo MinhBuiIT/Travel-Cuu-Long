@@ -1,0 +1,42 @@
+#modal-search {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 99999;
+}
+.modal-search {
+  opacity: 0;
+  visibility: hidden;
+}
+.modal-search.show {
+  opacity: 1;
+  visibility: visible;
+}
+#modal-search form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40vw;
+  display: flex;
+  align-items: center;
+}
+#modal-search form input {
+  padding: 16px 12px;
+  font-size: 16px;
+  color: #333;
+  width: 100%;
+  outline: none;
+  animation: showDown 0.2s linear forwards;
+}
+#modal-search form button {
+  padding: 16px 12px;
+  font-size: 16px;
+  border: 1px solid transparent;
+  color: white;
+  background-color: #ff4352;
+}

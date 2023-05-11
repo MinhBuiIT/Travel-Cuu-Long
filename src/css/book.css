@@ -1,0 +1,15 @@
+.book-wrap__table {
+  border: 1px solid #333;
+  border-collapse: collapse;
+  width: 100%;
+}
+.book-wrap__table-img {
+  width: 10%;
+  height: 100px;
+}
+td,
+th {
+  padding: 12px 14px;
+  border: 1px solid #333;
+  text-align: center;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../asset/img/favicon-32x32.png" type="image/x-icon">
+  <title>Quản trị Vé Du Lịch</title>
+  <link rel="stylesheet" href="../asset/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/admin_book.css">
+</head>
+
+<body>
+  <header id="header" class="px-5 py-3 bg-white shadow">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand border-end pe-3" href="#">
+          <div>
+            <img src="../asset/img/logo.png.webp" alt="Logo" width="200">
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ps-5" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item px-3">
+              <a class="nav-link fs-5 active" aria-current="page" href="admin_book.html">Duyệt Đơn Hàng</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link fs-5 text-hover" href="admin_ticket.html">Quản trị vé du lịch</a>
+            </li>
+          </ul>
+          <div class=" d-flex lg:justify-content-end align-items-center">
+            <div class="d-flex justify-content-end nav-right">
+              <a href="login.html" class="nav-link fs-5 pe-3 text-hover ">Đăng nhập</a>
+              <a href="register.html" class="nav-link fs-5 text-hover">Đăng ký</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="rounded container-fluid px-3 px-lg-0 container-lg mt-5 p-3 border-1 border-black border">
+      <h2 class="text-bg-light px-3">Xét duyệt đơn hàng</h2>
+      <div class="book-admin-wrap text-center p-3">
+        <table class="book-admin-wrap__table">
+          <thead>
+            <tr>
+              <th>Hình minh họa</th>
+              <th>Tên sản phẩm</th>
+              <th>Giá</th>
+              <th>Số lượng</th>
+              <th>Liên Hệ</th>
+              <th>Thành tiền</th>
+              <th>Xét duyệt</th>
+            </tr>
+          </thead>
+          <tbody class="book-admin-wrap__table-body">
+
+
+          </tbody>
+        </table>
+      </div>
+      <div class="text-end pe-3 book-btn-group">
+        <div class="btn btn-success book-admin-handleBill">Đã xử lý đơn hàng</div>
+        <button class="btn btn-success book-admin-confirmAll ">Xét duyệt tất cả</button>
+        <button class="btn btn-danger book-admin-removeAll">Hủy</button>
+      </div>
+    </div>
+  </main>
+  <script src="../asset/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="./js/admin.js"></script>
+  <script src="./js/admin_book.js"></script>
+</body>
+
+</html>

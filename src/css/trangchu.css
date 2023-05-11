@@ -1,0 +1,70 @@
+.des-container {
+  transition: all 0.3s linear;
+}
+.des-container:hover {
+  transform: translateY(-10px);
+}
+.des-container:hover .des-content {
+  color: #dc3545;
+}
+.des-container:hover .btn-sm {
+  background-color: #dc3545;
+}
+.des-img {
+  height: 250px;
+}
+.des-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.des-content {
+  font-size: 20px;
+  position: absolute;
+  left: 20px;
+  bottom: 16px;
+  font-weight: 600;
+  color: white;
+  transition: all 0.15s linear;
+}
+/* Holiday */
+#holiday {
+  margin: 100px 0;
+  position: relative;
+}
+.holiday-img {
+  width: 100%;
+  height: 250px;
+  filter: brightness(0.7);
+}
+.holiday-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.holiday-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.holiday-content span {
+  font-size: 48px;
+  color: #fff;
+  font-weight: 700;
+}
+.holiday-content button {
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 140px;
+  border-radius: 100px;
+  background-color: #fff;
+  color: #f76570;
+  font-weight: 300;
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+

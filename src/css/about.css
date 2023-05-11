@@ -1,0 +1,9 @@
+#intro img {
+  height: 450px;
+}
+#intro .intro-img-one {
+  transform: translateY(-20px);
+}
+#intro .intro-img-two {
+  transform: translateY(20px);
+}

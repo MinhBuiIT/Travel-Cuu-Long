@@ -103,5 +103,5 @@ if (userLoginEmail !== '') {
 }
 function logoutUser() {
   localStorage.removeItem('user');
-  window.location = 'login.html';
+  window.location = '/src/login.html';
 }

@@ -44,7 +44,7 @@ function renderTours(data) {
       let priceFormat = new Intl.NumberFormat('de-DE').format(item.price);
       return `<div class="col-md-4 col-6 mb-4 position-relative">
         <div class="tour-img">
-            <img src=${item.img} alt="tour">
+            <img src=..${item.img} alt="tour">
         </div>
         <div class="tour-content">
             <div class="d-flex justify-content-between align-items-center">

@@ -9,7 +9,7 @@ const bookWrap = document.querySelector('.book-wrap');
 const bookRender = document.querySelector('.book-wrap__table-body');
 const userLogin = localStorage.getItem('user') || '';
 if (dataBook.length === 0 || userLogin === '') {
-  bookWrap.innerHTML = `<img src="/asset/img/cart-empty.png" alt="Cart-empty" class="m-auto" width="40%">`;
+  bookWrap.innerHTML = `<img src="../asset/img/cart-empty.png" alt="Cart-empty" class="m-auto" width="40%">`;
   btnBookGroup.style = 'display:none';
 } else {
   if (dataBill.length !== 0) {

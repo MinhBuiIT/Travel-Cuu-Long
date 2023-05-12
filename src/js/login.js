@@ -31,7 +31,7 @@ Validate({
       if (isLoginUser) {
         alert('Đăng nhập User thành công');
         localStorage.setItem('user', data.email);
-        window.location = 'index.html';
+        window.location = '../index.html';
         localStorage.setItem('user', data.email);
       } else alert('Đăng nhập thất bại');
     }
